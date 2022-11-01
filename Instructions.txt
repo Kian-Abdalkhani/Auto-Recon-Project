@@ -1,0 +1,24 @@
+How to use Auto Recon Software:
+
+1) Save the FMS ledger file provided by Lacy to the "FMS FILE HERE" folder, make sure its the only thing in the folder
+
+2) Double click on "Auto Recon.exe" and run the program
+
+3) A command prompt window should pop up and display where the program is at within its process
+
+4) After the command window closes you should see a .xlsx file starting with "(AI GENERATED)" and the software is complete with your recon
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTABLE INFORMATION:
+
+-program requires .xlsx ledgers only
+
+-program doesn't work on clubs without a speedkey
+
+-do not move "autorecon.py" or "Auto Recon.exe" at any point or the program might fail to run properly
+
+-do not alter anything inside of the "autorecon.py" script or the program might fail to run properly
+
+-if program is experiencing any technical difficulties beyond the hypotheticals listed above, contact kabdalkhani@gmail.com
