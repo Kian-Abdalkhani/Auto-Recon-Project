@@ -85,8 +85,6 @@ def find_recon_date():
 
     return f'{month}-{day}-{year}'
 
-
-
 #create master query
 def set_dataframe():
 
@@ -199,7 +197,6 @@ def set_FMS():
 
     #fix the speed keys
     df_FMS["Speed Key"] = df_FMS["Speed Key"].apply(speedkey_fixer)
-
 
 #create recon ledger to compare to FMS
 def recon_mode(recon_date):
@@ -354,7 +351,6 @@ def ledger_recon(clubs,recon_date):
                 
                 wb.save(folders + "\\" + f)
 
-
 #creates the recon sheet that we initial
 def create_recon_book():
     recon_name = "(AI GENERATED) " + fms_file
@@ -383,7 +379,6 @@ def main():
     create_recon_book()
     print("File Created!")
     
-
 if __name__ == '__main__':
     main()
 
